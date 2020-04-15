@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>excel测试</title>
+    <script src="/js/jquery-3.4.1.js"></script>
+    <script src="/js/excel.js"></script>
+    <link rel="stylesheet" href="css/excel.css" type="text/css" />
+    <style>
+        .body{
+            top: 50px;
+            right: 0;
+            left: 220px;
+            bottom: 0px;
+            position: fixed;
+            overflow-y: auto;
+            z-index: 1;
+            overflow-x: auto;
+            -moz-transition: all .4s;
+            -o-transition: all .4s;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div id="excel" class="excel">
+            <div class="excel-head">
+                <div class="excel-head-input">
+                    <input name="excel-head-input" type="text">
+                </div>
+            </div>
+            
+            <div class="excel-main-table">
+                
+                <div class="excel-main-table-scroll">
+                    <div class="excel-main-table-scrollbar"></div>
+                </div>
+            </div>
+            <div class="excel-bottom">
+                <div class="excel-bottom-sheet">
+                    <a class="excel-bottom-sheet-oper icon" href="javascript:;" mold="left" disabled>&#xe682;</a>
+                    <a class="excel-bottom-sheet-oper icon" href="javascript:;" mold="right" disabled>&#xe703;</a>
+                    <div class="excel-bottom-sheet-tab">
+                        <ul class="excel-bottom-sheet-tab-title" style="left: -10px;">
+
+                        </ul>
+                    </div>
+                    <a class="excel-bottom-sheet-oper icon" href="javascript:;" mold="add">+</a>
+                </div>
+                <div class="excel-bottom-scroll">
+                    <div class="excel-bottom-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+    <script>
+        $('#excel').excel({
+            'cellWidth': 80,
+        });
+       
+    </script>
+</html>

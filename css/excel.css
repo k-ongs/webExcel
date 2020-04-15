@@ -1,0 +1,330 @@
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1586159326281'); /* IE9 */
+    src: url('../font/iconfont.eot?t=1586159326281#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+    url('../font/iconfont.woff?t=1586159326281') format('woff'),
+    url('../font/iconfont.ttf?t=1586159326281') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../font/iconfont.svg?t=1586159326281#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon {
+  font-family: "iconfont" !important;
+  font-size: inherit;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clear{
+    clear: both;
+}
+.contextmenu{
+    width: 200px;
+    display: none;
+    position: fixed;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+.contextmenu div,.contextmenu-sheet div{
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 30px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+}
+.contextmenu div.hr,.contextmenu-sheet div.hr{
+    border-bottom: 1px solid #ccc;
+}
+.contextmenu div .icon,.contextmenu-sheet div .icon{
+    font-size: 14px;
+    margin-right: 6px;
+}
+.contextmenu div:hover,.contextmenu-sheet div:hover{
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+.contextmenu-sheet{
+    width: 100px;
+    top: 0;;
+    position: fixed;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+.excel{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    position: relative;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+}
+.excel *{
+    font-size: 0;
+    box-sizing: border-box;
+}
+/* 头单元格坐标及输入框>>> */
+.excel-head{
+    width: 100%;
+    height: 25px;
+    position: relative;
+}
+.excel-head-input{
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    display: inline-block;
+    height: 100%;
+    border: 1px solid #D8D8D8;
+    overflow: hidden;
+}
+.excel-head-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 5px;
+    font-size: 13px;
+}
+/* <<<头单元格坐标及输入框 */
+
+/* 表格主体>>> */
+.excel-main-table{
+    top: 25px;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+.excel-main-table table{
+    border-spacing: 0;
+    table-layout: fixed;
+    border-color: grey;
+    border-collapse: collapse;
+}
+.excel-main-table table tr { 
+    border-color: inherit;
+    box-sizing: border-box;
+    vertical-align: inherit;
+}
+.excel-main-table table td{
+    padding: 3px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break:break-all;
+    vertical-align:middle;
+    border-left:1px solid #BEBEBE;
+    border-right:1px solid #BEBEBE;
+}
+.excel-main-table-data{
+    top:0;
+    left: 0;
+    right: 10px;
+    bottom: 0;
+    display: none;
+    position: absolute;
+    border-left:1px solid #BEBEBE;
+}
+.excel-main-table-data.active{
+    display: block;
+}
+.excel-main-table-scroll{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 10px;
+    background-color: #D0D0D0;
+}
+.excel-main-table-scrollbar{
+    left: 0px;
+    width: 10px;
+    height: 50%;
+    position: absolute;
+    border: 1px solid #919191;
+    background-color: #E8E8E8;
+}
+
+.excel-main-table-select{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #D8D8D8;
+    border-right: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+}
+.excel-main-table-head{
+    height: 30px;
+    top: 0;
+    left: 50px;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #D8D8D8;
+    border-bottom: 1px solid #BEBEBE;
+}
+.excel-main-table-head table td{
+    height: 30px;
+    text-align: center;
+}
+.excel-main-table-head table td:first-child{
+    border-left: none;
+}
+.excel-main-table-body-and-left{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.excel-main-table-left{
+    float: left;
+    width: 50px;
+    min-height: 100%;
+    background-color: #D8D8D8;
+}
+.excel-main-table-left table td{
+    width: 50px;
+    text-align: center;
+    border-left: none;
+    border-bottom: 1px solid #BEBEBE;
+}
+.excel-main-table-body{
+    top: 0;
+    left: 50px;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #FFF;
+    
+}
+.excel-main-table-body table td{
+    border-bottom: 1px solid #BEBEBE;
+}
+.excel-main-table-body table td:first-child{
+    border-left: none;
+}
+.excel-main-table-cheek{
+    top: 0;
+    left: 0;
+    pointer-events:none;
+    position: absolute;
+    border: 2px solid #42A642;
+}
+.excel-main-table-cheek::after{
+    content: '';
+    border: 1px;
+    width: 6px;
+    height: 6px;
+    font-size: 12px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    background-color: #42A642;
+}
+/* <<<表格主体 */
+
+/* 底部滚动条及按钮>>> */
+.excel-bottom{
+    bottom: 0px;
+    height: 26px;
+    width: 100%;
+    padding: 0 5px;
+    position: absolute;
+    background-color: #D8D8D8;
+}
+.excel-bottom > div{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+}
+.excel-bottom-scroll{
+    margin-top: 6px;
+    position: relative;
+    height: 16px !important;
+    background-color: #D0D0D0;
+}
+.excel-bottom-scrollbar{
+    left: 0px;
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    border: 1px solid #919191;
+    background-color: #E8E8E8;
+}
+.excel-bottom-sheet-tab{
+    height: 100%;
+    margin:0 5px;
+    overflow: hidden;
+    display: inline-block;
+    max-width: calc(100% - 95px);
+}
+.excel-bottom-sheet-tab-title{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    white-space: nowrap;
+    display: inline-block;
+}
+.excel-bottom-sheet-tab-title li{
+    color: #4E4E4E;
+    height: 26px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 26px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #C2C2C2;
+    border-right: 1px solid #AEAEAE;
+}
+.excel-bottom-sheet-tab-title li.active{
+    color: #55A94E;
+    background-color: #FFF;
+}
+.excel-bottom-sheet-tab-title li:not(.active):hover{
+    cursor: pointer;
+    background-color: #E3E3E3;
+}
+
+.excel-bottom-sheet-oper{
+    width: 26px;
+    height: 26px;
+    color: #575757;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    display: inline-block;
+}
+.excel-bottom-sheet-oper:hover{
+    background-color: #CBCBCB;
+}
+.excel-bottom-sheet-oper[disabled]{
+    color: #CACACA;
+    cursor: default;
+    background-color: inherit;
+}
+/* <<<底部滚动条及按钮 */
+
+
+
+
+/* 表格类 */
+.excel-table-head{
+    width: auto;
+}
